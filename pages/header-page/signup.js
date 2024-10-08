@@ -54,7 +54,7 @@ const Signup = () => {
 
         <div className="mt-4 text-center">
           <p className="text-gray-600">
-            이미 계정이 있으신가요? <a href="/login" className="text-indigo-600 font-bold">로그인</a>
+            이미 계정이 있으신가요? <a href="/header-page/login" className="text-indigo-600 font-bold">로그인</a>
           </p>
         </div>
       </div>
