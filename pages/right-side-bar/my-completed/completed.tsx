@@ -1,5 +1,5 @@
+//path: pages/right-side-bar/my-completed/completed.tsx
 import { useRouter } from 'next/router';
-import { useState, useEffect } from 'react';
 
 // 문제의 타입 정의
 interface Problem {
@@ -22,7 +22,7 @@ const CompletedProblems: React.FC = () => {
 
   const handleProblemClick = (id: number) => {
     // 클릭 시 해당 문제의 상세 페이지로 이동
-    router.push(`/completed-problems/${id}`);
+    router.push(`/right-side-bar/my-completed/${id}`);
   };
 
   return (

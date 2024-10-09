@@ -190,22 +190,22 @@ const HomePage = () => {
         {/* 사이드바 */}
         <aside className="w-1/5 bg-white p-6 shadow-lg rounded-2xl">
           <div className="flex flex-col space-y-6">
-            <Link href="/right-side-bar/completed">
+            <Link href="/right-side-bar/my-completed/completed">
               <span className="text-indigo-600 font-bold hover:text-indigo-800 transition-colors cursor-pointer">
                 완료한 문제
               </span>
             </Link>
-            <Link href="/right-side-bar/in-progress">
+            <Link href="/right-side-bar/my-in-progress/in-progress">
               <span className="text-indigo-600 font-bold hover:text-indigo-800 transition-colors cursor-pointer">
                 풀고 있는 문제
               </span>
             </Link>
-            <Link href="/right-side-bar/chat">
+            <Link href="/right-side-bar/my-chat/chat">
               <span className="text-indigo-600 font-bold hover:text-indigo-800 transition-colors cursor-pointer">
                 참가중인 채팅
               </span>
             </Link>
-            <Link href="/right-side-bar/my-problems">
+            <Link href="/right-side-bar/my-problems/my-problems">
               <span className="text-indigo-600 font-bold hover:text-indigo-800 transition-colors cursor-pointer">
                 내가 작성한 문제
               </span>

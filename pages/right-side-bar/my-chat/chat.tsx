@@ -1,3 +1,5 @@
+//path: pages/right-side-bar/my-chat/chat.tsx
+
 import React from 'react';
 
 const ChatPage = () => {
