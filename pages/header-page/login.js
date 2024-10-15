@@ -72,7 +72,7 @@ const Login = () => {
 
         <div className="mt-4 text-center">
           <p className="text-gray-600">
-            계정이 없으신가요? <a href="/signup" className="text-indigo-600 font-bold">회원가입</a>
+            계정이 없으신가요? <a href="/header-page/signup" className="text-indigo-600 font-bold">회원가입</a>
           </p>
         </div>
       </div>
